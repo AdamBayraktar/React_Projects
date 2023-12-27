@@ -32,32 +32,20 @@ export function App() {
       <main>
         <section id="core-concepts">
           <ul>
-            <CoreConcepts
-              title={CORE_CONCEPTS[0].title}
-              description={CORE_CONCEPTS[0].description}
-              image={CORE_CONCEPTS[0].image}
-            ></CoreConcepts>
-            <CoreConcepts
-              title={CORE_CONCEPTS[1].title}
-              description={CORE_CONCEPTS[1].description}
-              image={CORE_CONCEPTS[1].image}
-            ></CoreConcepts>
-            <CoreConcepts
-              title={CORE_CONCEPTS[2].title}
-              description={CORE_CONCEPTS[2].description}
-              image={CORE_CONCEPTS[2].image}
-            ></CoreConcepts>
-            <CoreConcepts
-              title={CORE_CONCEPTS[3].title}
-              description={CORE_CONCEPTS[3].description}
-              image={CORE_CONCEPTS[3].image}
-            ></CoreConcepts>
+            {CORE_CONCEPTS.map((CORE_CONCEPTS) => (
+              <CoreConcepts
+                title={CORE_CONCEPTS.title}
+                description={CORE_CONCEPTS.description}
+                image={CORE_CONCEPTS.image}
+              ></CoreConcepts>
+            ))}
           </ul>
         </section>
         <section id="examples">
           <h2>Examples</h2>
           <menu>
             <TabButton
+              isSelected={selectedTab.title === "Components"}
               onClick={() => {
                 handleSelect("Components");
               }}
@@ -65,6 +53,7 @@ export function App() {
               Components
             </TabButton>
             <TabButton
+              isSelected={selectedTab.title === "JSX"}
               onClick={() => {
                 handleSelect("JSX");
               }}
@@ -72,6 +61,7 @@ export function App() {
               JSX
             </TabButton>
             <TabButton
+              isSelected={selectedTab.title === "Props"}
               onClick={() => {
                 handleSelect("Props");
               }}
@@ -79,6 +69,7 @@ export function App() {
               Props
             </TabButton>
             <TabButton
+              isSelected={selectedTab.title === "State"}
               onClick={() => {
                 handleSelect("State");
               }}
