@@ -38,7 +38,6 @@ export function Player({ initialName, symbol }) {
       <button
         onClick={() => {
           setIsEditing(false);
-          setPlayerName("Adam");
         }}
       >
         Save
