@@ -1,10 +1,12 @@
 import { GameBoard } from "./components/GameBoard";
+import { GameOver } from "./components/GameOver";
 import { Header } from "./components/Header";
 import { Player } from "./components/Player";
 import { useState } from "react";
 
 function App() {
   const [activePlayer, setActivePlayer] = useState("X");
+  const [gameOver, setGameOver] = useState(false);
   function handleSelectSquare() {
     setActivePlayer((currentPlayer) => (currentPlayer === "X" ? "O" : "X"));
   }
@@ -26,9 +28,12 @@ function App() {
               isActive={activePlayer === "O"}
             ></Player>
           </ol>
+          {gameOver && <GameOver gameOver={gameOver} />}
           <GameBoard
             onSelectSquare={handleSelectSquare}
             activePlayerSymbol={activePlayer}
+            setGameOver={setGameOver}
+            gameOver={gameOver}
           />
         </div>
       </main>
