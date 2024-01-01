@@ -11,16 +11,24 @@ export function calculateInvestmentResults({
   duration,
 }) {
   const annualData = [];
-  let investmentValue = initialInvestment;
+  let investmentValue = Number(initialInvestment);
+  let totalInterest = 0;
+  let totalAnnualInvestment =  Number(initialInvestment)
 
   for (let i = 0; i < duration; i++) {
     const interestEarnedInYear = investmentValue * (expectedReturn / 100);
-    investmentValue += interestEarnedInYear + annualInvestment;
+    totalInterest += interestEarnedInYear;
+    console.log(investmentValue)
+    investmentValue = (investmentValue + interestEarnedInYear + annualInvestment);
+    totalAnnualInvestment += annualInvestment
+    
+    // investmentValue += (interestEarnedInYear + annualInvestment);
     annualData.push({
       year: i + 1, // year identifier
-      interest: interestEarnedInYear, // the amount of interest earned in this year
-      valueEndOfYear: investmentValue, // investment value at end of year
-      annualInvestment: annualInvestment, // investment added in this year
+      interest: formatter.format(Math.ceil(interestEarnedInYear)), // the amount of interest earned in this year
+      totalInterest: formatter.format(Math.ceil(totalInterest)), // total interest earned by now
+      valueEndOfYear: formatter.format(Math.ceil(investmentValue)), // investment value at end of year
+      annualInvestment: formatter.format(Math.ceil(totalAnnualInvestment)), // investment added in this year
     });
   }
 
