@@ -47,15 +47,15 @@ Welcome to the "React_Projects" repository! This space is designed to help you l
 
 ## Projects
 
-1. **Project 1: [React_Essentials](link-to-project-1-branch)**
+1. **Project 1: [React_Essentials](https://github.com/AdamBayraktar/React_Projects/tree/react_essentials)**
 
    - Brief description of the project and its purpose.
 
-2. **Project 2: [React_Tic_Tac_Toe](link-to-project-2-branch)**
+2. **Project 2: [React_Tic_Tac_Toe](https://github.com/AdamBayraktar/React_Projects/tree/react_tic_tac_toe)**
 
    - Brief description of the project and its purpose.
 
-3. **Project 3: [React_Investment_Calculator](link-to-project-3-branch)**
+3. **Project 3: [React_Investment_Calculator](https://github.com/AdamBayraktar/React_Projects/tree/react_investment_calculator)**
    - Brief description of the project and its purpose.
 
 Feel free to explore, clone, and experiment with these projects as you progress in your React journey. Each project is on a separate branch, providing a focused learning experience.
