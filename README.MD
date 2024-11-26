@@ -56,6 +56,10 @@ Welcome to the "React_Projects" repository! This space is designed to help you l
    - Brief description of the project and its purpose.
 
 3. **Project 3: [React_Investment_Calculator](https://github.com/AdamBayraktar/React_Projects/tree/react_investment_calculator)**
+
+   - Brief description of the project and its purpose.
+
+4. **Project 4: [React_Timer_challenge](https://github.com/AdamBayraktar/React_Projects/tree/timer_challenge)**
    - Brief description of the project and its purpose.
 
 Feel free to explore, clone, and experiment with these projects as you progress in your React journey. Each project is on a separate branch, providing a focused learning experience.
