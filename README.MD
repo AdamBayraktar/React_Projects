@@ -47,20 +47,25 @@ Welcome to the "React_Projects" repository! This space is designed to help you l
 
 ## Projects
 
-1. **Project 1: [React_Essentials](https://github.com/AdamBayraktar/React_Projects/tree/react_essentials)**
+**Project 1: [React_Essentials](https://github.com/AdamBayraktar/React_Projects/tree/react_essentials)**
 
-   - Brief description of the project and its purpose.
+- This project serves as a hands-on experience for understanding React fundamentals and building a basic web application.
 
-2. **Project 2: [React_Tic_Tac_Toe](https://github.com/AdamBayraktar/React_Projects/tree/react_tic_tac_toe)**
+**Project 2: [React_Tic_Tac_Toe](https://github.com/AdamBayraktar/React_Projects/tree/react_tic_tac_toe)**
 
-   - Brief description of the project and its purpose.
+- A one-page website created with React. This project imitates a classic, well-known game, which is tic-tac-toe. Have fun!
 
-3. **Project 3: [React_Investment_Calculator](https://github.com/AdamBayraktar/React_Projects/tree/react_investment_calculator)**
+**Project 3: [React_Investment_Calculator](https://github.com/AdamBayraktar/React_Projects/tree/react_investment_calculator)**
 
-   - Brief description of the project and its purpose.
+- Investment calculator web page is a one page website which allows you to calculate your investment by providing required values.
 
-4. **Project 4: [React_Timer_challenge](https://github.com/AdamBayraktar/React_Projects/tree/timer_challenge)**
-   - Brief description of the project and its purpose.
+**Project 4: [React_Timer_challenge](https://github.com/AdamBayraktar/React_Projects/tree/timer_challenge)**
+
+- Brief description of the project and its purpose.
+
+**Project 5: [React_Cloth_Store](https://github.com/AdamBayraktar/React_Projects/tree/React_Cloth_Store)**
+
+- This project demonstrates how to build a simple one-page shop application using React. It showcases the implementation of the React Context API to manage global state.
 
 Feel free to explore, clone, and experiment with these projects as you progress in your React journey. Each project is on a separate branch, providing a focused learning experience.
 
