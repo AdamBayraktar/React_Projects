@@ -67,6 +67,10 @@ Welcome to the "React_Projects" repository! This space is designed to help you l
 
 - This project demonstrates how to build a simple one-page shop application using React. It showcases the implementation of the React Context API to manage global state.
 
+**Project 6: [React_Place_Picker](https://github.com/AdamBayraktar/React_Projects/tree/react_place_picker)**
+
+- Place Picker is a single-page web application that allows users to select and save places they want to visit. Places are displayed as interactive cards, providing an intuitive and visually appealing interface. The project leverages local storage to save selected places for future reference and uses the browser's geolocation API to enhance the user experience.
+
 Feel free to explore, clone, and experiment with these projects as you progress in your React journey. Each project is on a separate branch, providing a focused learning experience.
 
 Happy coding!
